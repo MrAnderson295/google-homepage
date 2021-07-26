@@ -18,9 +18,14 @@ li{
     margin-right: 70%;
 }
 
-#google-image{
+#google-logo-search{
     width: 100%;
     min-width: 450px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+/* #search{
+    border-radius: 50px;
+} */
