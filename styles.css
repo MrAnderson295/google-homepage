@@ -8,7 +8,6 @@ nav{
 
 ul{
     list-style-type: none;
-    width: 100%;
     min-width: 300px;
     display: flex;
 }
@@ -19,6 +18,17 @@ li{
 
 #store{
     margin-right: 70%;
+}
+
+.btn-style{
+    border: none;
+    border-radius: 3px;
+    color: #5F6368;
+    padding: 10px 16px 10px 16px;
+}
+
+.btn-style:hover{
+    color: black;
 }
 
 #google-logo-and-search{
@@ -34,8 +44,13 @@ li{
 }
 
 footer{
-    width: 100%;
+    display: flex;
     position: fixed;
+    width: 100%;
     bottom: 0;
     margin-top: 400px;
 }
+
+/* #how-search-works{
+    margin-right: 70%;
+} */
