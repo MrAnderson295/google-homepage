@@ -13,11 +13,21 @@ ul{
 }
 
 li{
+    text-decoration: none;
     margin: 10px;
 }
 
 #store{
     margin-right: 70%;
+}
+
+#sign-in{
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #4386fb;
+    font-weight: bold;
+    padding: 6.5px 16px 6.5px 16px;
 }
 
 .btn-style{
