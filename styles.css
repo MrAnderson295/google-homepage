@@ -2,12 +2,15 @@ body{
     margin: 0;
 }
 
+nav{
+    margin-bottom: 150px;
+}
+
 ul{
     list-style-type: none;
     width: 100%;
     min-width: 300px;
     display: flex;
-    margin-bottom: 150px;
 }
 
 li{
@@ -18,7 +21,7 @@ li{
     margin-right: 70%;
 }
 
-#google-logo-search{
+#google-logo-and-search{
     width: 100%;
     min-width: 450px;
     display: flex;
@@ -28,4 +31,11 @@ li{
 
 #searchbar{
     border-radius: 50px;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-top: 400px;
 }
