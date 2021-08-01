@@ -9,8 +9,10 @@ nav{
 ul{
     display: flex;
     flex-direction: row;
+    align-items: center;
     list-style-type: none;
-    min-width: 300px;
+    /* min-width: 300px; */
+    padding: 0 20px 0 20px;
 }
 
 li > a{
@@ -25,7 +27,6 @@ li > a{
 }
 
 #sign-in{
-    flex: 0 0 50px;
     border: none;
     border-radius: 2px;
     color: white;
@@ -59,14 +60,12 @@ li > a{
 }
 
 footer{
-    display: flex;
     position: fixed;
     background-color: #f2f2f2;
     width: 100%;
     bottom: 0;
-    margin-top: 400px;
 }
 
-/* #how-search-works{
-    margin-right: 70%;
-} */
+#how-search-works{
+    margin-right: auto;
+}
