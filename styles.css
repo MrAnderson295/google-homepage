@@ -36,7 +36,7 @@ li > a{
 }
 
 .btn-style{
-    border: none;
+    border: solid 1px white;
     border-radius: 3px;
     color: #5F6368;
     padding: 10px 16px 10px 16px;
@@ -55,15 +55,20 @@ main{
 }
 
 #searchbar{
+    border: 1px solid #d1d2d4;
     border-radius: 50px;
     margin: 30px 0 30px 0;
-    height: 40px;
-    width: 500px;
+    height: 45px;
+    width: 585px;
 }
 
 #search-bar-btns{
     display: flex;
     flex-direction: row;
+}
+
+#search-btn{
+    margin-right: 15px;
 }
 
 footer{
