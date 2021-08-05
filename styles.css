@@ -59,7 +59,7 @@ li > span:hover{
 
 .btn-style{
     border: solid 1px white;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #5F6368;
     padding: 10px 16px 10px 16px;
 }
@@ -76,7 +76,10 @@ main{
     width: 100%;
 }
 
-#searchbar{
+#search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     border: 1px solid #d1d2d4;
     border-radius: 50px;
     margin: 30px 0 30px 0;
@@ -84,8 +87,26 @@ main{
     width: 585px;
 }
 
-#searchbar:hover{
+#search-container:hover{
     box-shadow: 0 0 8px 1px #d9dadb;
+}
+
+input{
+    border: none;
+    width: 85%;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+input:focus{
+    outline: none;
+    background-color: transparent;
+}
+
+#search-icon{
+    margin: 5px 10px 5px 15px;
+    color: #9aa0a6;
+    font-size: 20px;
 }
 
 #search-bar-btns{
@@ -95,6 +116,11 @@ main{
 
 #search-btn{
     margin-right: 15px;
+    font-size: 13px;
+}
+
+#lucky-btn{
+    font-size: 13px;
 }
 
 footer{
