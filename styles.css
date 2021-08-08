@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 0;
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -69,11 +70,16 @@ li > span:hover{
     border: #c6c6c6 1px solid;
 }
 
+.btn-style:focus{
+    border: #4386fb solid 1px;
+    background-color: #f0f0f0;
+    color: #222;
+}
+
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-self: center;
     width: 100%;
     margin: auto;
 }
@@ -93,14 +99,14 @@ main{
     box-shadow: 0 0 8px 1px #d9dadb;
 }
 
-input{
+#searchbar{
     border: none;
     width: 85%;
     font-family: arial, sans-serif;
     font-size: 16px;
 }
 
-input:focus{
+#searchbar:focus{
     outline: none;
     background-color: transparent;
 }
@@ -119,10 +125,12 @@ input:focus{
 #search-btn{
     margin-right: 15px;
     font-size: 13px;
+    font-family: arial, sans-serif;
 }
 
 #lucky-btn{
     font-size: 13px;
+    font-family: arial, sans-serif;
 }
 
 footer{
@@ -130,11 +138,13 @@ footer{
     background-color: #f2f2f2;
     width: 100%;
     border-top: #e7e7e7 solid 1px;
+    
 }
 
 footer > ul{
     margin-top: 14px;
     margin-bottom: 14px;
+    flex-wrap: wrap;    
 }
 
 #how-search-works{
