@@ -101,7 +101,7 @@ main{
 
 #searchbar{
     border: none;
-    width: 85%;
+    width: calc(100% - 75px);
     font-family: arial, sans-serif;
     font-size: 16px;
 }
@@ -119,7 +119,6 @@ main{
 
 #search-bar-btns{
     display: flex;
-    flex-direction: row;
 }
 
 #search-btn{
