@@ -84,6 +84,11 @@ main{
     margin: auto;
 }
 
+#google-logo{
+    width: 272px;
+    height: 92px;
+}
+
 #searchbar-form{
     display: flex;
     justify-content: center;
@@ -101,8 +106,14 @@ main{
     width: 585px;
 }
 
-#search-container:hover{
+#searchbar-container:hover{
     box-shadow: 0 0 8px 1px #d9dadb;
+}
+
+#search-icon{
+    margin: 0px 10px 0px 15px;
+    color: #9aa0a6;
+    font-size: 20px;
 }
 
 #searchbar{
@@ -115,12 +126,6 @@ main{
 #searchbar:focus{
     outline: none;
     background-color: transparent;
-}
-
-#search-icon{
-    margin: 5px 10px 5px 15px;
-    color: #9aa0a6;
-    font-size: 20px;
 }
 
 #search-bar-btns{
@@ -155,3 +160,71 @@ footer > ul{
 #how-search-works{
     margin-right: auto;
 }
+
+/* Media Queries */
+@media (min-width: 320px) {
+    #google-logo{
+        width: 200px;
+        height: 70px;
+    }
+
+    #searchbar-container{
+        height: 37px;
+    }
+
+    #search-icon{
+        font-size: 15px;
+    }
+
+    #searchbar{
+        font-size: 14px;
+    }
+
+    li > a, #sign-in, #search-btn, #lucky-btn{
+        font-size: 12px;
+    }
+    
+}
+
+@media (min-width: 360px) {
+    #store, #how-search-works{
+        margin-right: auto;
+    }
+
+}
+
+@media (min-width: 480px) {
+
+    li > a{
+        font-size: 13px;
+    }
+
+    #sign-in{
+        font-size: 13px;
+    }
+    
+}
+
+@media (min-width: 768px) { 
+    #google-logo{
+        width: 272px;
+        height: 92px;
+    }
+    
+    #searchbar-container{
+        height: 45px;
+    }
+
+    #search-icon{
+        font-size: 20px;
+    }
+
+    #searchbar{
+        font-size: 16px;
+    }
+
+    li > a, #sign-in, #search-btn, #lucky-btn{
+        font-size: 13px;
+    }
+}
+
