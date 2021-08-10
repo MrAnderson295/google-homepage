@@ -84,13 +84,19 @@ main{
     margin: auto;
 }
 
-#search-container{
+#searchbar-form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#searchbar-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     border: 1px solid #d1d2d4;
     border-radius: 50px;
-    margin: 30px 0 30px 0;
+    margin: 30px;
     height: 45px;
     width: 585px;
 }
